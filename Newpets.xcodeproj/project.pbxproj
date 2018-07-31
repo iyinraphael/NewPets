@@ -12,8 +12,8 @@
 		948AED432110EBB3006102E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948AED422110EBB3006102E8 /* Assets.xcassets */; };
 		948AED462110EBB3006102E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948AED442110EBB3006102E8 /* LaunchScreen.storyboard */; };
 		948AED4F2110ED5E006102E8 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AED4E2110ED5E006102E8 /* PetModel.swift */; };
-		948AED522110EE1B006102E8 /* PetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AED512110EE1B006102E8 /* PetController.swift */; };
-		948AED552110F173006102E8 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AED542110F173006102E8 /* PetTableViewController.swift */; };
+		948AED582110F493006102E8 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AED572110F493006102E8 /* PetTableViewController.swift */; };
+		948AED5B2110F624006102E8 /* PetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948AED5A2110F624006102E8 /* PetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		948AED452110EBB3006102E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948AED472110EBB3006102E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948AED4E2110ED5E006102E8 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
-		948AED512110EE1B006102E8 /* PetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetController.swift; sourceTree = "<group>"; };
-		948AED542110F173006102E8 /* PetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
+		948AED572110F493006102E8 /* PetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
+		948AED5A2110F624006102E8 /* PetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		948AED3A2110EB8A006102E8 /* Newpets */ = {
 			isa = PBXGroup;
 			children = (
+				948AED592110F601006102E8 /* modelController */,
+				948AED562110F474006102E8 /* viewController */,
 				948AED4D2110ED20006102E8 /* model */,
-				948AED502110EDD1006102E8 /* PetController */,
-				948AED532110F0D4006102E8 /* viewcontroller */,
 				948AED3B2110EB8A006102E8 /* AppDelegate.swift */,
 				948AED3F2110EB8A006102E8 /* Main.storyboard */,
 				948AED422110EBB3006102E8 /* Assets.xcassets */,
@@ -78,20 +78,20 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		948AED502110EDD1006102E8 /* PetController */ = {
+		948AED562110F474006102E8 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				948AED512110EE1B006102E8 /* PetController.swift */,
+				948AED572110F493006102E8 /* PetTableViewController.swift */,
 			);
-			path = PetController;
+			path = viewController;
 			sourceTree = "<group>";
 		};
-		948AED532110F0D4006102E8 /* viewcontroller */ = {
+		948AED592110F601006102E8 /* modelController */ = {
 			isa = PBXGroup;
 			children = (
-				948AED542110F173006102E8 /* PetTableViewController.swift */,
+				948AED5A2110F624006102E8 /* PetController.swift */,
 			);
-			path = viewcontroller;
+			path = modelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948AED522110EE1B006102E8 /* PetController.swift in Sources */,
 				948AED3C2110EB8A006102E8 /* AppDelegate.swift in Sources */,
 				948AED4F2110ED5E006102E8 /* PetModel.swift in Sources */,
-				948AED552110F173006102E8 /* PetTableViewController.swift in Sources */,
+				948AED582110F493006102E8 /* PetTableViewController.swift in Sources */,
+				948AED5B2110F624006102E8 /* PetController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
