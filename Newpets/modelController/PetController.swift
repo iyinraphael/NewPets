@@ -15,8 +15,8 @@ class PetController{
         for name in pet {
             let newPet = PetModel(name: name)
             pets.append(newPet)
-        return pets
         }
+        return pets
     }
     
     var pets: [PetModel] = []
